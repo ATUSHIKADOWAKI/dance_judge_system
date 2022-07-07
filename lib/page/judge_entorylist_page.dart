@@ -50,7 +50,7 @@ class _JudgeEntryListPage extends ConsumerState<JudgeEntryListPage> {
                       child: Image(
                         height: 300.0,
                         width: double.infinity,
-                        image: AssetImage('images/nakamu.jpeg'),
+                        image: AssetImage('images/casper.png'),
                         fit: BoxFit.cover,
                       ),
                     ),
@@ -69,7 +69,7 @@ class _JudgeEntryListPage extends ConsumerState<JudgeEntryListPage> {
                       child: Image(
                         height: 300.0,
                         width: double.infinity,
-                        image: AssetImage('images/nakamu.jpeg'),
+                        image: AssetImage('images/marcio.jpeg'),
                         fit: BoxFit.cover,
                       ),
                     ),
@@ -88,7 +88,7 @@ class _JudgeEntryListPage extends ConsumerState<JudgeEntryListPage> {
                       child: Image(
                         height: 300.0,
                         width: double.infinity,
-                        image: AssetImage('images/nakamu.jpeg'),
+                        image: AssetImage('images/kid-columbia.jpeg'),
                         fit: BoxFit.cover,
                       ),
                     ),
@@ -107,7 +107,7 @@ class _JudgeEntryListPage extends ConsumerState<JudgeEntryListPage> {
                       child: Image(
                         height: 300.0,
                         width: double.infinity,
-                        image: AssetImage('images/nakamu.jpeg'),
+                        image: AssetImage('images/lilg.png'),
                         fit: BoxFit.cover,
                       ),
                     ),
