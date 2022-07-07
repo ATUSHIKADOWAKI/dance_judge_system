@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:go_router/go_router.dart';
 
 class JudgeEntryListPage extends ConsumerStatefulWidget {
   const JudgeEntryListPage({
@@ -39,7 +40,9 @@ class _JudgeEntryListPage extends ConsumerState<JudgeEntryListPage> {
                   title: Text('ナカムー'),
                   subtitle: Text('タコベル'),
                   trailing: Text('Score: 9.7'),
-                  onTap: () {},
+                  onTap: () {
+                    context.push('/scoring');
+                  },
                 ),
               ),
               Card(

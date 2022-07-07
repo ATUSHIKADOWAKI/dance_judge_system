@@ -2,6 +2,7 @@ import 'package:dance_judge_system/page/judge_page.dart';
 import 'package:dance_judge_system/page/judge_entorylist_page.dart';
 import 'package:dance_judge_system/page/my_home_page.dart';
 import 'package:dance_judge_system/page/organizer_page.dart';
+import 'package:dance_judge_system/page/scoring_page.dart';
 import 'package:dance_judge_system/state.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
@@ -42,6 +43,14 @@ final _router = GoRouter(
       pageBuilder: (context, state) => MaterialPage(
         key: state.pageKey,
         child: const JudgeEntryListPage(),
+      ),
+    ),
+    GoRoute(
+      name: 'scoring',
+      path: '/scoring',
+      pageBuilder: (context, state) => MaterialPage(
+        key: state.pageKey,
+        child: const ScoringPage(),
       ),
     ),
   ],
